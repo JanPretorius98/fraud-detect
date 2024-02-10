@@ -187,7 +187,34 @@ This function is especially useful when the cost of false negatives (missed frau
 
 ## Next Steps
 
+### Questions for the bank
 
+1. **Customer Segmentation and Product Usage:**
+   - Can you provide insights into the criteria used for customer segmentation within the bank? How are products and services tailored to different segments?
+
+2. **Account and Transaction Types:**
+   - Could you explain the range of account types (e.g., savings, checking, loans) and transaction categories (e.g., deposits, withdrawals, transfers) included in the data? How do these account and transaction types relate to the bank's primary revenue streams?
+
+3. **Geographical Influence:**
+   - How does the bank's geographical presence affect account distribution and transaction volumes? Are there specific regions that show higher engagement or product uptake?
+
+4. **Customer Retention and Churn Analysis:**
+   - What methods are currently employed to track customer retention and churn? Are there identifiable patterns or characteristics of customers who close their accounts or reduce activity?
+
+5. **Digital Banking Trends:**
+   - How has the adoption of digital banking services impacted traditional banking operations in terms of account management and transaction processing? Can you identify trends in the data that reflect shifts towards digital platforms?
+
+6. **Fraud Detection and Security Measures:**
+   - What types of fraudulent activities are most common, and how are they represented in the data? What preventive measures are in place to detect and mitigate these activities?
+
+7. **Financial Health Indicators:**
+   - How does the bank assess the financial health of its customers? Are there specific indicators (e.g., account balance trends, loan repayment behaviors) that are particularly telling?
+
+8. **Product and Service Feedback Loop:**
+   - Is there a mechanism in place for collecting and analyzing customer feedback on the bank's products and services? How is this feedback reflected in the dataset?
+
+9. **Regulatory Compliance and Impact:**
+   - How do regulatory requirements impact the bank's data management and reporting practices? Are there specific compliance challenges that influence how data is collected or utilized?
 
 ### Short-Term Next Steps:
 
