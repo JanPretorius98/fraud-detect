@@ -38,17 +38,17 @@ The main markdown file compiling the results can be found [here](Presentation.Rm
 
 ## Utility Scripts
 
-### `aesthetics.R`
+### [`aesthetics.R`](code/aesthetics.R)
 
 - Defines plot themes and colour palettes for consistent aesthetics
 
-### `eda.R`
+### [`eda.R`](code/eda.R)
 
 - Exploratory data analysis script.
 - See [Data Operations](#data-operations) for more information.
 - Contains code for the creation of all plot objects and modelling scripts.
 
-### `transform.R`
+### [`transform.R`](code/transform.R)
 
 - Main data transformations script.
 - See [Functions Overview](#functions-overview) for more information.
