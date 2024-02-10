@@ -129,7 +129,7 @@ stacked <- commit_fraud %>%
 
 
 # Stacked bar v2.0 ----
-# Assuming 'df' is your dataframe and the column names are accurate
+
 stacked <- df %>%
   # Create a combined factor for value_customer and value_merchant
   mutate(value_combination = paste("Customer:", value_customer, "- Merchant:", value_merchant)) %>%
@@ -140,7 +140,6 @@ stacked <- df %>%
   mutate(proportion = count / sum(count)) %>%
   # Adjust the fraud factor for readability
   mutate(fraud = factor(fraud, levels = c(0, 1), labels = c("No Fraud", "Fraud"))) %>%
-  # Plotting directly without creating a new dataframe
   ggplot(aes(x = value_combination, y = proportion, fill = fraud)) +
   geom_bar(stat = "identity", position = "fill") +
   labs(title = "Proportion of Fraud by Value Customer or Merchant",
