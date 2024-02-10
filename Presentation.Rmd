@@ -1,0 +1,112 @@
+---
+title: "Presentation"
+author: "JH Pretorius"
+date: "`r Sys.Date()`"
+output: powerpoint_presentation
+---
+
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE, message = FALSE, fig.height=5, fig.width=7)
+
+# Housekeeping ----
+pacman::p_load(dplyr,
+               tidyverse,
+               ggplot2,
+               scales,
+               GGally,
+               networkD3,
+               caret,
+               ModelMetrics,
+               pROC,
+               randomForest,
+               beepr,
+               xgboost,
+               reshape2)
+
+# Source functions ----
+source("code/transform.R")
+source("code/aesthetics.R")
+source("code/eda.R")
+
+```
+
+
+## Scatter
+
+```{r scatter}
+
+print(scatter)
+
+```
+
+## Bar plot
+
+```{r bar, fig.width=8}
+
+print(bar)
+
+```
+
+
+## Stacked bar plot
+
+```{r stack}
+
+print(stacked)
+
+```
+
+## Bubble Plot
+
+```{r bubble, fig.height=7, fig.width=5}
+
+print(bubble)
+
+```
+
+## Logit
+
+```{r l_tabs}
+
+print(l_confusion_matrix)
+print(l_AUC)
+
+```
+
+```{r l_coef, fig.height=7, fig.width=5}
+
+print(coef)
+
+```
+
+```{r l_roc, fig.height=5, fig.width=5}
+
+print(lroc)
+
+```
+
+## Random Forest
+
+```{r rf_tabs}
+
+print(rf_confusion_matrix)
+print(rf_AUC)
+print(rf_accuracy)
+print(rf_sensitivity)
+print(rf_specificity)
+print(rf_precision)
+
+```
+
+```{r rf_varimp, fig.height=5, fig.width=9}
+
+print(varimp)
+
+```
+
+```{r rf_roc, fig.height=5, fig.width=5}
+
+print(rfroc)
+
+```
